@@ -64,7 +64,7 @@ const Home = () => {
   const [isRenamingKey, setIsRenamingKey] = useState("");
   const [modalOpen, setModalOpen] = useState(false);
   const [clickedFile, setClickedFile] = useState({});
-  const filesFromRedux = useSelector(state => state.fileAndFolders.files)
+  const filesFromRedux = useSelector(state => state.filesAndFolder.files)
 
   const [folders, setFolders] = useState([
     {
